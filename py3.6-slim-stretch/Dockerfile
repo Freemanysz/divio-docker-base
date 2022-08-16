@@ -1,4 +1,4 @@
-FROM python:3.6.11-slim-stretch AS build
+FROM --platform=linux/arm64/v8 python:3.6.11-slim-stretch AS build
 
 ARG TARGET=prod
 
